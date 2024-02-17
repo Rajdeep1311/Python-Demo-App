@@ -3,7 +3,7 @@ version: '3.8'
 services:
   python-demo:
     image: my-python-image:latest
-    container_name:my-demo-container
+    container_name: my-demo-container
     build: 
       context: .
       dockerfile: Dockerfile
