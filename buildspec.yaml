@@ -17,3 +17,6 @@ phases:
       - docker tag my-python-image rajdeep1311/demo:latest
       - docker login -u rajdeep1311 -p rajdeeprj1311
       - docker push rajdeep1311/demo:latest
+artifacts:
+  files:
+    - appspec.yaml
