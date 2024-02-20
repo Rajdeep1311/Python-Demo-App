@@ -19,4 +19,4 @@ phases:
       - docker push rajdeep1311/demo:latest
 artifacts:
   files:
-    - appspec.yaml
+    - appspec.yml
